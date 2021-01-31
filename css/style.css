@@ -27,3 +27,21 @@
     width: 350px;
     height: 350px;
 }
+
+
+/*---------------------------------------
+       NAVBAR              
+  -----------------------------------------*/
+
+.bg-transparent {
+    background: rgba(19, 15, 15, 0.548) !important;
+}
+
+
+/* Tablet y celular */
+
+@media (max-width: 991.98px) {
+    .ancho-btn {
+        width: 26%;
+    }
+}
