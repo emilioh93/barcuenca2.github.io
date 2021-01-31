@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 * {
     margin: 0%;
     padding: 0%;
+}
+
+.cursiva {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
 }
 
 
