@@ -4,8 +4,11 @@
     padding: 0%;
 }
 
-.cursiva {
+.fuente-cursiva {
     font-family: 'Great Vibes', cursive;
+}
+
+.navbar-logo-size {
     font-size: 40px;
 }
 
@@ -44,10 +47,62 @@
 }
 
 
+/* Efecto botones navbar */
+
+.swingHorizontal {
+    color: hsl(222, 25%, 14%);
+}
+
+.swingHorizontal:hover {
+    animation: swingHorizontal 1s ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes swingHorizontal {
+    15% {
+        transform: translateX(5px);
+    }
+    30% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(3px);
+    }
+    65% {
+        transform: translateX(-3px);
+    }
+    80% {
+        transform: translateX(2px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/*---------------------------------------
+       CAROUSEL              
+  -----------------------------------------*/
+
+
+/*---------------------------------------
+       MEDIA QUERIES              
+  -----------------------------------------*/
+
+
 /* Tablet y celular */
 
 @media (max-width: 991.98px) {
     .ancho-btn {
         width: 26%;
+    }
+}
+
+
+/* Computador */
+
+@media (min-width: 992px) {
+    .navbar-m-custom {
+        margin-left: 120px;
     }
 }
