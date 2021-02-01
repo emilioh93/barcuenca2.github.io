@@ -46,6 +46,10 @@
     background: rgba(19, 15, 15, 0.548) !important;
 }
 
+.mayusculas {
+    text-transform: uppercase;
+}
+
 
 /* Efecto botones navbar */
 
