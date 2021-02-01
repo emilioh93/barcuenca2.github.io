@@ -21,11 +21,13 @@
     </section>
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
+        <!-- TODO: generar efecto de cambio de background del navbar al scrollear -->
+        <nav class="navbar fixed-top navbar-expand-lg fuentes-personalizadas">
             <div class="container container-fluid">
-                <a class="navbar-brand fuente-cursiva navbar-logo-size" href="#">Bar Cuenca</a>
+                <a id="logo" class="navbar-brand fuente-cursiva navbar-logo-size" href="#inicio">Bar Cuenca</a>
+                <!-- FIXME: arreglar color de botón hamburguesa, porque se transparenta con la clase fuentes-personalizadas -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse mayusculas" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse mayusculas centrar-items-hamburguesa" id="navbarSupportedContent">
                     <ul class="navbar-nav navbar-m-custom mb-2 mb-lg-0">
                         <li class="nav-item me-4">
                             <a class="nav-link" href="#nosotros">Sobre nosotros</a>
@@ -44,7 +46,8 @@
                         <li>
                             <a class="nav-link swingHorizontal me-3" href="#"><i class="fas fa-phone-alt"></i> +34 961 15 67 70</a>
                         </li>
-                        <a class="btn btn-danger ancho-btn" href="#footer">Reservas</a>
+                        <!-- FIXME: centrar botón Reservas al desplegar botón hamburguesa -->
+                        <a class="btn btn-danger ancho-btn overlayLeftBtn" href="#footer"><span>Reservas</span></a>
                     </ul>
                 </div>
             </div>

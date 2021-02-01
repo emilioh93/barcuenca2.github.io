@@ -42,8 +42,25 @@
        NAVBAR              
   -----------------------------------------*/
 
-.bg-transparent {
+#logo:hover {
+    color: white;
+}
+
+.fuentes-personalizadas {
     background: rgba(19, 15, 15, 0.548) !important;
+    color: white;
+}
+
+.fuentes-personalizadas li {
+    font-weight: bold;
+}
+
+.fuentes-personalizadas a {
+    color: white;
+}
+
+.fuentes-personalizadas a:hover {
+    color: tomato
 }
 
 .mayusculas {
@@ -52,6 +69,41 @@
 
 
 /* Efecto botones navbar */
+
+.overlayLeftBtn {
+    background-color: tomato;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlayLeftBtn span {
+    color: white;
+    position: relative;
+    z-index: 1;
+    transition: color 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+}
+
+.overlayLeftBtn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-radius: 6px;
+    transform: translate(-101%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+}
+
+.overlayLeftBtn:hover span {
+    color: tomato;
+}
+
+.overlayLeftBtn:hover::before {
+    transform: translate(0, -50%);
+}
 
 .swingHorizontal {
     color: hsl(222, 25%, 14%);
@@ -98,7 +150,10 @@
 
 @media (max-width: 991.98px) {
     .ancho-btn {
-        width: 26%;
+        width: 30%;
+    }
+    .centrar-items-hamburguesa {
+        text-align: center;
     }
 }
 
