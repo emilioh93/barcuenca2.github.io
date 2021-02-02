@@ -15,13 +15,12 @@
 
 <body>
     <!-- PRE LOADER -->
-    <section id="contenedorPreloader">
+    <!-- <!-- <section id="contenedorPreloader">
         <div><iframe id="preloader" src="https://giphy.com/embed/l1Ij6ohSOcQwWQytoY" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         </div>
-    </section>
+    </section> -->
     <header id="header">
         <!-- NAVBAR -->
-        <!-- TODO: generar efecto de cambio de background del navbar al scrollear -->
         <nav class="navbar fixed-top navbar-expand-lg fuentes-personalizadas" id="navScroll">
             <div class="container container-fluid">
                 <a id="logo" class="navbar-brand fuente-cursiva navbar-logo-size" href="#header">Bar Cuenca</a>
@@ -95,36 +94,44 @@
         </section>
     </header>
     <main>
-        <section class="container">
+        <section>
             <!-- SOBRE NOSOTROS -->
-            <article id="nosotros" class="row">
-                <div class="col-md-6 col-sm-12">
-                    <h5>Nuestra historia</h5>
-                    <h2 class="fuente-cursiva display-3">Preparamos deliciosas comidas desde 1999</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla fugit porro nobis eligendi modi at temporibus quasi veniam est expedita praesentium, inventore possimus tempore, architecto, error animi sequi quam accusamus!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis delectus, consectetur modi officia assumenda porro.</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <img src="img/about-image.jpg" alt="imagen de la sección sobre nosotros" class="w-100">
+            <article id="nosotros" class="my-5 container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h2 class="fuente-cursiva display-4">Nuestra historia</h2>
+                        <div class="my-3">
+                            <h3 class="fuente-cursiva">Preparamos deliciosas comidas desde 1999</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla fugit porro nobis eligendi modi at temporibus quasi veniam est expedita praesentium, inventore possimus tempore, architecto, error animi sequi quam accusamus!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis delectus, consectetur modi officia assumenda porro.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <img src="img/about-image.jpg" alt="imagen de la sección sobre nosotros" class="w-100">
+                    </div>
                 </div>
             </article>
             <!-- CHEF -->
-            <article id="chef">
-                <h2 class="fuente-cursiva display-3">Nuestros Chefs</h2>
-                <h5>Gente muy amable y talentosa</h5>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <img src="img/team-image1.jpg" alt="" class="w-100">
-                        <h1 class="fuente-cursiva">Emilio Ezequiel Hurtado</h1>
-                        <h5>Parrillero</h5>
+            <section class="fondo">
+                <article id="chef" class="container py-5">
+                    <div>
+                        <h2 class="fuente-cursiva display-4">Nuestros Chefs</h2>
+                        <h3 class="fuente-cursiva">Gente muy amable y talentosa</h3>
+                        <div class="row my-3">
+                            <div class="col-md-6 col-sm-12">
+                                <img src="img/team-image1.jpg" alt="" class="w-100">
+                                <h1 class="fuente-cursiva">Emilio Ezequiel Hurtado</h1>
+                                <h5>Parrillero</h5>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <img src="img/team-image2.jpg" alt="" class="w-100">
+                                <h1 class="fuente-cursiva">Pablo Helguera</h1>
+                                <h5>Maestro pizzero</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <img src="img/team-image2.jpg" alt="" class="w-100">
-                        <h1 class="fuente-cursiva">Pablo Helguera</h1>
-                        <h5>Maestro pizzero</h5>
-                    </div>
-                </div>
-            </article>
+                </article>
+            </section>
             <!-- CARTA -->
             <article id="carta">
                 <h2 class="fuente-cursiva display-3">Nuestra Carta</h2>
