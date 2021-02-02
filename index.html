@@ -19,14 +19,14 @@
         <div><iframe id="preloader" src="https://giphy.com/embed/l1Ij6ohSOcQwWQytoY" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         </div>
     </section>
-    <header>
+    <header id="header">
         <!-- NAVBAR -->
         <!-- TODO: generar efecto de cambio de background del navbar al scrollear -->
-        <nav class="navbar fixed-top navbar-expand-lg fuentes-personalizadas">
+        <nav class="navbar fixed-top navbar-expand-lg fuentes-personalizadas" id="navScroll">
             <div class="container container-fluid">
-                <a id="logo" class="navbar-brand fuente-cursiva navbar-logo-size" href="#inicio">Bar Cuenca</a>
+                <a id="logo" class="navbar-brand fuente-cursiva navbar-logo-size" href="#header">Bar Cuenca</a>
                 <!-- FIXME: arreglar color de botón hamburguesa, porque se transparenta con la clase fuentes-personalizadas -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <button id="marcoHamburg" class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i id="iconoHamburg" class="fas fa-bars text-light"></i></button>
                 <div class="collapse navbar-collapse mayusculas centrar-items-hamburguesa" id="navbarSupportedContent">
                     <ul class="navbar-nav navbar-m-custom mb-2 mb-lg-0">
                         <li class="nav-item me-4">

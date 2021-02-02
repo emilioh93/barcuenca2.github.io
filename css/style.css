@@ -68,12 +68,8 @@
        NAVBAR              
   -----------------------------------------*/
 
-#logo:hover {
-    color: white;
-}
-
 .fuentes-personalizadas {
-    background: rgba(19, 15, 15, 0.548) !important;
+    background: rgba(19, 15, 15, 0) !important;
     color: white;
 }
 
@@ -87,6 +83,23 @@
 
 .fuentes-personalizadas a:hover {
     color: tomato
+}
+
+.fuentes-personalizadas-scroll {
+    background: rgb(240, 236, 236) !important;
+    color: rgb(10, 10, 10);
+}
+
+.fuentes-personalizadas-scroll li {
+    font-weight: bold;
+}
+
+.fuentes-personalizadas-scroll a {
+    color: rgb(5, 5, 5);
+}
+
+.fuentes-personalizadas-scroll a:hover {
+    color: tomato;
 }
 
 .mayusculas {
