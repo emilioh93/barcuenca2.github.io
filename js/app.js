@@ -1,6 +1,6 @@
 // Preloader
 window.onload = function() {
-    var contenedor = document.getElementById("contenedorPreloader");
+    let contenedor = document.getElementById("contenedorPreloader");
     contenedor.style.visibility = "hidden";
     contenedor.style.opacity = "0";
 }
@@ -8,10 +8,10 @@ window.onload = function() {
 // Navbar
 function scrollEffect(pxPantalla) {
     window.addEventListener("scroll", () => {
-        var scroll = document.documentElement.scrollTop;
-        var bgChange = document.getElementById("navScroll");
-        var marcoHamburg = document.getElementById("marcoHamburg");
-        var iconoHamburg = document.getElementById("iconoHamburg");
+        let scroll = document.documentElement.scrollTop;
+        let bgChange = document.getElementById("navScroll");
+        let marcoHamburg = document.getElementById("marcoHamburg");
+        let iconoHamburg = document.getElementById("iconoHamburg");
 
         if (scroll > pxPantalla) {
             bgChange.className = "navbar fixed-top navbar-expand-lg fuentes-personalizadas-scroll";
