@@ -191,6 +191,24 @@
     background-color: red;
 }
 
+.positionText1 {
+    position: absolute;
+    top: 180px;
+    left: -350px;
+}
+
+.positionText2 {
+    position: absolute;
+    top: 180px;
+    left: -350px;
+}
+
+.positionText3 {
+    position: absolute;
+    top: 180px;
+    left: -350px;
+}
+
 
 /*---------------------------------------
         SOBRE NOSOTROS              
