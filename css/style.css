@@ -189,7 +189,7 @@
 .btnSlider {
     background: red;
     border-radius: 11px;
-    padding: 20px 45px;
+    padding: 15px 40px;
     color: white;
     display: inline-block;
     font-size: 18px;
@@ -218,8 +218,8 @@
 
 .positionText3 {
     position: absolute;
-    top: 180px;
-    left: -350px;
+    top: 130px;
+    left: 120px;
 }
 
 
