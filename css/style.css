@@ -187,8 +187,21 @@
   -----------------------------------------*/
 
 .btnSlider {
+    background: red;
+    border-radius: 11px;
+    padding: 20px 45px;
     color: white;
-    background-color: red;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btnSlider:hover {
+    background: rgb(185, 2, 2);
+    color: white;
 }
 
 .positionText1 {
