@@ -19,7 +19,7 @@
   -----------------------------------------*/
 
 
-/* Tablet y celular */
+/* Tablet y Celular */
 
 @media (max-width: 991.98px) {
     .ancho-btn {
@@ -28,6 +28,12 @@
     .centrar-items-hamburguesa {
         text-align: center;
     }
+}
+
+
+/* Solo Celular */
+
+@media (max-width: 767.98px) {
     .altura-slider-sm {
         height: 260px;
     }
