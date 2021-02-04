@@ -28,6 +28,17 @@
     .centrar-items-hamburguesa {
         text-align: center;
     }
+    /* FIXME: no está tomando estos valores, sino el de pc */
+    .positionText1-IPad {
+        position: absolute;
+        top: 20px;
+        left: 120px;
+    }
+    .positionText3-IPad {
+        position: absolute;
+        top: 10px;
+        left: 120px;
+    }
 }
 
 
@@ -204,13 +215,7 @@
     color: white;
 }
 
-.positionText1 {
-    position: absolute;
-    top: 180px;
-    left: -350px;
-}
-
-.positionText2 {
+.positionText1y2 {
     position: absolute;
     top: 180px;
     left: -350px;
