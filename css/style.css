@@ -28,6 +28,9 @@
     .centrar-items-hamburguesa {
         text-align: center;
     }
+    .altura-slider-sm {
+        height: 260px;
+    }
 }
 
 
