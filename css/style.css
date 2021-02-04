@@ -28,17 +28,6 @@
     .centrar-items-hamburguesa {
         text-align: center;
     }
-    /* FIXME: no está tomando estos valores, sino el de pc */
-    .positionText1-IPad {
-        position: absolute;
-        top: 20px;
-        left: 120px;
-    }
-    .positionText3-IPad {
-        position: absolute;
-        top: 10px;
-        left: 120px;
-    }
 }
 
 
@@ -225,6 +214,22 @@
     position: absolute;
     top: 130px;
     left: 120px;
+}
+
+@media (max-width: 991.98px) {
+    .positionText1-IPad {
+        position: absolute;
+        top: 85px;
+        left: 45px;
+        font-size: 10%;
+        text-align: left;
+    }
+    .positionText3-IPad {
+        position: absolute;
+        top: 80px;
+        left: 120px;
+        font-size: 10%;
+    }
 }
 
 
