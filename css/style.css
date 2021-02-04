@@ -37,6 +37,12 @@
     .navbar-m-custom {
         margin-left: 120px;
     }
+    .carousel,
+    .carousel-inner,
+    .item,
+    img {
+        height: 630px;
+    }
 }
 
 
@@ -83,7 +89,7 @@
 }
 
 .fuentes-personalizadas a:hover {
-    color: tomato
+    color: red
 }
 
 .fuentes-personalizadas-scroll {
@@ -179,6 +185,11 @@
 /*---------------------------------------
        CAROUSEL              
   -----------------------------------------*/
+
+.btnSlider {
+    color: white;
+    background-color: red;
+}
 
 
 /*---------------------------------------
