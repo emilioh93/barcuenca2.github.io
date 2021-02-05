@@ -255,6 +255,11 @@
     background-color: whitesmoke;
 }
 
+.imgLargo {
+    width: 50%;
+    height: 50%;
+}
+
 
 /*---------------------------------------
     Media Querryes
