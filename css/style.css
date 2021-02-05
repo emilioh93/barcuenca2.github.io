@@ -56,6 +56,50 @@
 
 
 /*---------------------------------------
+       ÍCONO WHATSAPP              
+  -----------------------------------------*/
+
+.btnWhatsApp {
+    position: fixed;
+    z-index: 1000;
+    bottom: 30px;
+    right: -1000px;
+}
+
+.iconoWhatsApp {
+    width: 10%;
+    height: 10%;
+}
+
+@media (max-width: 767.98px) {
+    .tamanio-sm {
+        width: 7%;
+        height: 7%;
+    }
+    .btnWhatsApp-sm {
+        position: fixed;
+        z-index: 1000;
+        bottom: 20px;
+        right: -1050px;
+    }
+}
+
+.magnifyText {
+    color: hsl(222, 25%, 14%);
+    transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.magnifyText:hover {
+    transform: scale(1.05);
+    color: hsl(243, 80%, 62%);
+}
+
+.magnifyText:active {
+    transform: scale(.9);
+}
+
+
+/*---------------------------------------
        PRE LOADER              
   -----------------------------------------*/
 
