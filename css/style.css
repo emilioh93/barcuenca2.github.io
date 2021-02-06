@@ -129,7 +129,7 @@
   -----------------------------------------*/
 
 .fuentes-personalizadas {
-    background: rgba(19, 15, 15, 0) !important;
+    background: rgba(19, 15, 15, 0.055) !important;
     color: white;
 }
 
