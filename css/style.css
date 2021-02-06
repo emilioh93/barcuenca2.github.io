@@ -62,24 +62,24 @@
 .btnWhatsApp {
     position: fixed;
     z-index: 1000;
-    bottom: 30px;
-    right: -1000px;
+    bottom: 40px;
+    right: -950px;
 }
 
 .iconoWhatsApp {
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
 }
 
 @media (max-width: 767.98px) {
     .tamanio-sm {
-        width: 7%;
-        height: 7%;
+        width: 6%;
+        height: 6%;
     }
     .btnWhatsApp-sm {
         position: fixed;
         z-index: 1000;
-        bottom: 20px;
+        bottom: 25px;
         right: -1050px;
     }
 }
