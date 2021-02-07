@@ -26,3 +26,12 @@ function scrollEffect(pxPantalla) {
 }
 
 scrollEffect(20);
+
+// Ocultar ícono whatsapp
+window.onscroll = function() {
+    if (document.documentElement.scrollTop > 3000) {
+        document.getElementById("btnWhatsApp").classList.add("btnWhatsAppOcultar");
+    } else {
+        document.getElementById("btnWhatsApp").classList.remove("btnWhatsAppOcultar");
+    }
+}

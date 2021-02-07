@@ -64,6 +64,15 @@
     z-index: 1000;
     bottom: 40px;
     right: -950px;
+    transition: all 1s 0s linear;
+}
+
+.btnWhatsAppOcultar {
+    position: fixed;
+    z-index: 1000;
+    bottom: 40px;
+    right: -1950px;
+    transition: all 1s 0s linear;
 }
 
 .iconoWhatsApp {
