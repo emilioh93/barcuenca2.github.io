@@ -323,3 +323,25 @@
 iframe {
     height: 100%;
 }
+
+
+/*---------------------------------------
+    Footer
+  -----------------------------------------*/
+
+.bg-horarios {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.751), rgba(0, 0, 0, 0.751)), url(../img/footer-open-hour-bg.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.colorGris {
+    color: #909090;
+}
+
+@media (max-width: 767.98px) {
+    .ancho-sm {}
+    .margin-sm {
+        margin-top: 40px;
+    }
+}
