@@ -343,7 +343,7 @@ iframe {
 
 /*ZoomIn Hover Effect*/
 
-.hover-zoomin a {
+.hover-zoomin div {
     display: block;
     position: relative;
     overflow: hidden;
